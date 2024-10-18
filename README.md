@@ -24,8 +24,21 @@ sudo pacman -U 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-keyring-2
 
 then replace your pacman.conf with this [pamcan.conf](https://github.com/SteavenLinux/SteavenLinux/raw/refs/heads/main/pacman.conf)
 
-## All SteavenLinux Packages
-`sudo pacman -Syu SteavenLinux-emulators-meta SteavenLinux-gaming-meta SteavenLinux-plasma-meta SteavenLinux-gnome-meta SteavenLinux-printering-meta fastfetch gamescope-legacy-bin hyfetch steavenlinuxname steavensettings SteavenSettingsExtra SteavenLinux-plymouth-theme SteavenBuntu-Wallpapers`
+## SteavenLinux Core Packages
+`sudo pacman -Syu SteavenLinux-printering-meta fastfetch gamescope-legacy-bin hyfetch steavenlinuxname steavensettings SteavenSettingsExtra SteavenLinux-plymouth-theme SteavenBuntu-Wallpapers`
+
+## Gpu Drivers
+Nvidia: `sudo pacman -Syu SteavenLinux-Nvidia-meta`
+Amd: `sudo pacman -Syu SteavenLinux-Amd-meta`
+Intel: `sudo pacman -Syu SteavenLinux-Intel-meta`
+
+## De
+Kde: `sudo pacman -Syu SteavenLinux-plasma-meta`
+Gnome: `sudo pacman -Syu SteavenLinux-gnome-meta`
+
+## Gaming
+PC: `sudo pacman -Syu SteavenLinux-gaming-meta`
+Consoles: `sudo pacman -Syu SteavenLinux-emulators-meta`
 
 ## Plymouth
 
