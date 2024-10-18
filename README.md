@@ -29,15 +29,19 @@ then replace your pacman.conf with this [pamcan.conf](https://github.com/Steaven
 
 ## Gpu Drivers
 Nvidia: `sudo pacman -Syu SteavenLinux-Nvidia-meta`
+
 Amd: `sudo pacman -Syu SteavenLinux-Amd-meta`
+
 Intel: `sudo pacman -Syu SteavenLinux-Intel-meta`
 
 ## De
 Kde: `sudo pacman -Syu SteavenLinux-plasma-meta`
+
 Gnome: `sudo pacman -Syu SteavenLinux-gnome-meta`
 
 ## Gaming
 PC: `sudo pacman -Syu SteavenLinux-gaming-meta`
+
 Consoles: `sudo pacman -Syu SteavenLinux-emulators-meta`
 
 ## Plymouth
