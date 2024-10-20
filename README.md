@@ -28,7 +28,9 @@ then replace your pacman.conf with this [pamcan.conf](https://github.com/Steaven
 `sudo pacman -Syu SteavenLinux-printering-meta fastfetch gamescope-legacy-bin hyfetch steavenlinuxname steavensettings SteavenSettingsExtra SteavenLinux-plymouth-theme SteavenBuntu-Wallpapers`
 
 ## Gpu Drivers
-Nvidia: `sudo pacman -Syu SteavenLinux-Nvidia-meta`
+Nvidia: `sudo pacman -Syu SteavenLinux-Nvidia-open-meta`
+
+Nvidia but older: `sudo pacman -Syu SteavenLinux-Nvidia-proprietary-meta`
 
 Amd: `sudo pacman -Syu SteavenLinux-Amd-meta`
 
