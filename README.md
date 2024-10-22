@@ -17,7 +17,7 @@ sudo pacman -U 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-keyring-2
 'https://ftp.belnet.be/mirror/endeavouros/repo/endeavouros/x86_64/endeavouros-keyring-20231222-1-any.pkg.tar.zst' \
 'https://ftp.belnet.be/mirror/endeavouros/repo/endeavouros/x86_64/endeavouros-mirrorlist-24.9-1-any.pkg.tar.zst' \
 'https://mirrors.dotsrc.org/blackarch/blackarch/os/x86_64/blackarch-keyring-20180925-5-any.pkg.tar.zst' \
-'https://mirrors.dotsrc.org/blackarch/blackarch/os/x86_64/blackarch-mirrorlist-20240523-1-any.pkg.tar.zst' \
+'https://mirrors.dotsrc.org/blackarch/blackarch/os/x86_64/blackarch-mirrorlist-20241007-1-any.pkg.tar.zst' \
 'https://github.com/arcolinux/arcolinux_repo/raw/refs/heads/main/x86_64/arcolinux-keyring-20251209-3-any.pkg.tar.zst' \
 'https://github.com/arcolinux/arcolinux_repo/raw/refs/heads/main/x86_64/arcolinux-mirrorlist-git-24.03-12-any.pkg.tar.zst'
 ```
