@@ -12,10 +12,10 @@ sudo pacman-key --lsign-key 53A8F6EE177504E66BBBCA20C1F0637C80E7C321
 in pacman.conf add 
 ```sh
 [SteavenLinux]
-Server = https://steavenlinux.github.io/SteavenRepo/x86_64
+Server = https://steavenlinux.github.io/SteavenRepo/$arch
 [SteavenLinux2]
-Server = http://arabcraft.ddns.net:80/x86_64
-#Server = http://192.168.1.117/x86_64
+Server = http://arabcraft.ddns.net:80/$arch
+#Server = http://192.168.1.117/$arch
 ```
 before any repo
 
