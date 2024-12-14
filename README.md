@@ -48,9 +48,9 @@ Kde: `sudo pacman -Syu SteavenLinux-plasma-meta`
 Gnome: `sudo pacman -Syu SteavenLinux-gnome-meta`
 
 ## Gaming
-PC: `sudo pacman -Syu SteavenLinux-gaming-meta`
+PC: `sudo pacman -Syu SteavenLinux-Gaming-meta`
 
-Consoles: `sudo pacman -Syu SteavenLinux-emulators-meta`
+Consoles: `sudo pacman -Syu SteavenLinux-Emulators-meta`
 
 ## Plymouth
 
