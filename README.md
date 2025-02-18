@@ -60,4 +60,4 @@ Consoles: `sudo pacman -Syu SteavenLinux-Emulators-meta`
 ### steavenlinux2 secound in the video
 `sudo plymouth-set-default-theme -R steavenlinux2`
 
-[Plymouth](https://github.com/SteavenLinux/SteavenLinux/raw/refs/heads/main/ah.mp4)
+<video width="640" height="360" controls="controls" src="[https://user-images.githubusercontent.com/83010835/255322916-85ae8196-8b12-4e15-b060-9872db10839f.mp4](https://github.com/SteavenLinux/SteavenLinux/raw/refs/heads/main/ah.mp4)"></video>
