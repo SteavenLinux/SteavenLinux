@@ -11,11 +11,9 @@ sudo pacman-key --lsign-key 53A8F6EE177504E66BBBCA20C1F0637C80E7C321
 
 in pacman.conf add 
 ```sh
-[SteavenLinux]
-Server = https://steavenlinux.github.io/SteavenRepo/$arch
-[SteavenLinux2]
+[SteavenRepo]
 Server = http://arabcraft.ddns.net:80/$arch
-#Server = http://192.168.1.117/$arch
+#Server = http://192.168.1.112/$arch
 ```
 before any repo
 
@@ -26,6 +24,8 @@ Core Packages: `sudo pamcan -Syu steavenlinuxname SteavenLinux-plymouth-theme St
 Settings: `sudo pacman -Syu SteavenSettings`
 
 Extra Settings: `sudo pacman -Syu SteavenSettings`
+
+CachyOS Settings: `sudo pacman -Syu SteavenCachyosSettings`
 
 Printers: `sudo pacman -Syu SteavenLinux-printering-meta`
 
