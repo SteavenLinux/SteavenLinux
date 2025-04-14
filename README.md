@@ -12,7 +12,7 @@ sudo pacman-key --lsign-key 53A8F6EE177504E66BBBCA20C1F0637C80E7C321
 in pacman.conf add 
 ```sh
 [SteavenRepo]
-Server = http://arabcraft.ddns.net:80/$arch
+Server = http://arabcraft.ddns.net:8080/$arch
 #Server = http://192.168.1.112/$arch
 ```
 before any repo
